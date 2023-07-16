@@ -28,7 +28,7 @@ func main() {
 	log.Initialize(ctx)
 
 	alphavantageClient := &httpclient.RequestClient{
-		Identifier: httpclient.AlphaVantage,
+		Identifier: httpclient.NewsApi,
 		Host:       "www.alphavantage.co",
 		Scheme:     "https",
 		Authority:  "www.alphavantage.co",

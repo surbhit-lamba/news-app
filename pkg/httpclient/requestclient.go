@@ -14,7 +14,7 @@ import (
 type requestIdentifier string
 
 const (
-	AlphaVantage requestIdentifier = "alpha_vantage"
+	NewsApi requestIdentifier = "news_api"
 )
 
 type RequestClient struct {
