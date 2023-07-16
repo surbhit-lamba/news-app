@@ -1,0 +1,10 @@
+vendor
+client/php
+client/php/**
+data
+build
+deployment
+
+docker-compose.yml
+docker-compose-dev.yml
+Makefile
